@@ -1,3 +1,4 @@
+import os
 os.system(r"pip install dash")
 os.system(r"pip install plotly.express")
 os.system(r"pip install pandas")
