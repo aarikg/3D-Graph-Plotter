@@ -25,7 +25,7 @@ app.layout = html.Div(
         
     ]
 )
-
+server = app.server
 
 @app.callback(
     Output("graph", "figure"),
@@ -61,4 +61,4 @@ def update_graph_and_table(n_clicks, x, y, z):
 
 if __name__ == "__main__":
     app.run_server(debug=False)
-    server = app.server
+    
