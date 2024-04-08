@@ -1,7 +1,7 @@
 from dash import Dash, dcc, html, Input, Output, State, dash_table
 import plotly.express as px
 import pandas as pd
-
+os.system(r"pip install dash")
 df = px.data.iris()  # Sample dataset 
 points_data = []  # Stores the submitted points
 
